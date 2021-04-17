@@ -77,8 +77,14 @@ export default {
 
   methods: {
     async AddToCart(items){
-        console.log(items);
-        const res = await fetch(this.urlcart,{
+      for (let i = 0; i < this.cart.length; i++) {
+        if(this.cart[i].id == items.id){
+          alert("already add.")
+          return
+        }
+        
+      }
+          const res = await fetch(this.urlcart,{
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
@@ -88,7 +94,8 @@ export default {
                 name: items.name,
                 price: items.price,
                 img: items.img,
-                showprice: items.showprice
+                showprice: items.showprice,
+                amount: 1
             })
         })
         const products = await res.json()
@@ -101,6 +108,12 @@ export default {
       // parses JSON response into native JavaScript objects
       return data;
     },
+      async fetchCart() {
+      const res = await fetch(this.urlcart);
+      const data = await res.json();
+      // parses JSON response into native JavaScript objects
+      return data;
+    }
     
     // async DeleteCart(id){
     //     await fetch(`${this.urlcart}/${id}`,{
@@ -117,7 +130,9 @@ export default {
   //    },
   async created() {
     this.showproducts = await this.fetchProduct();
+    this.cart = await this.fetchCart();
   },
+  
 };
 </script>
 
