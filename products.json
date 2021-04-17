@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wood Grain Wardrobe | Furniture",
+      "price": 2499,
+      "img": "https://images.unsplash.com/photo-1519689300934-ed1a40bb7239?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80",
+      "showprice": "2,499.00"
+    },
+    {
+      "id": 2,
+      "name": "Black Piano | Music Instrument",
+      "price": 23000,
+      "img": "https://images.unsplash.com/photo-1615884241095-305d10e66980?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80",
+      "showprice": "23,000.00"
+    },
+    {
+      "id": 3,
+      "name": "Modern Table | Furniture",
+      "price": 399,
+      "img": "https://images.unsplash.com/photo-1616627562042-c7f043755804?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80",
+      "showprice": "399.00"
+    },
+    {
+      "id": 4,
+      "name": "Plant Pot | Decoration",
+      "price": 159.99,
+      "img": "https://images.unsplash.com/photo-1616627435290-b2142d69212b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2121&q=80",
+      "showprice": "159.99"
+    },
+    {
+      "id": 5,
+      "name": "Blue Glass | Decoration",
+      "price": 89.99,
+      "img": "https://images.unsplash.com/photo-1616323150885-4b326ecc4c4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2132&q=80",
+      "showprice": "89.99"
+    },
+    {
+      "id": 6,
+      "name": "Modern Wood Grain Table | Furniture",
+      "price": 4999,
+      "img": "https://images.unsplash.com/photo-1608403890614-ec62cb35b46e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80",
+      "showprice": "4,999.00"
+    },
+    {
+      "id": 7,
+      "name": "Wood Grain Floor | Decoration",
+      "price": 199.99,
+      "img": "https://images.unsplash.com/photo-1614590354333-c72a209c78a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80",
+      "showprice": "199.99 / 1 square metre"
+    },
+    {
+      "id": 8,
+      "name": "Modern Circle Table | Furniture",
+      "price": 1699,
+      "img": "https://images.unsplash.com/photo-1537456204312-b6b74c785065?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80",
+      "showprice": "1,699.00"
+    }
+  ],
+  "cart": []
+}
